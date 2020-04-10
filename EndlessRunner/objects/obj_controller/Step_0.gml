@@ -4,36 +4,53 @@ timer --
 if(timer = 0)
 {
 	timer = timermax
-	instance_create_layer(x,choose(y,y - 100,y+16),"Instances",choose(obj_obstacle,obj_obstacle1,obj_obstacle2,obj_flyingblock))
+	//instance_create_layer(x,choose(y,y - 100,y+16),"Instances",choose(obj_obstacle,obj_obstacle1,obj_obstacle2,obj_flyingblock))
+	pattern = choose(0,1,2,3,4)
+	switch(pattern){
+	case 0: scr_prefab()
+	break;
+	
+	case 1: scr_prefab1()
+	break;
+	
+	case 2: scr_prefab2()
+	break;
+	
+	case 3: scr_prefab3()
+	break;
+	
+	case 4: scr_prefab4()
+	break;}
+
 }
 
 if(global.Score > 10)
 {
-	global.speedModifier = 1.3
-	timermax = 100
+	global.speedModifier = 1.1
+	
 }
 else if(global.Score > 20)
 {
-	global.speedModifier = 1.6
-	timermax = 80
+	global.speedModifier = 1.2
+	
 }
 else if(global.Score > 30)
 {
-	global.speedModifier = 1.9
-	timermax = 60
+	global.speedModifier = 1.3
+	
 }
 else if(global.Score > 40)
 {
-	global.speedModifier = 2.2
-	timermax = 50
+	global.speedModifier = 1.4
+	
 }
 else if(global.Score > 50)
 {
-	global.speedModifier = 2.5
-	timermax = 40
+	global.speedModifier = 1.6
+	
 }
 else if(global.Score > 60)
 {
-	global.speedModifier =2.8
-	timermax = 35
+	global.speedModifier =1.8
+	
 } 

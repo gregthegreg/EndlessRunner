@@ -8,5 +8,5 @@ jumping = false;
 falling = false;
 ducking = false;
 slashing = false;
-
+canjump = 0
 termVelocity = 50;

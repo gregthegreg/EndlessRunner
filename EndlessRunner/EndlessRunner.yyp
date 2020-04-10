@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0aa2cb63-81a0-49b7-8794-e0d180359c40",
+            "Value": {
+                "id": "c049d256-0f8f-4667-a63c-2c31702c3657",
+                "resourcePath": "scripts\\scr_prefab3\\scr_prefab3.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0ff24e1e-b25f-4a1b-8c71-6dceedd25ded",
             "Value": {
                 "id": "84123923-72fa-4a8a-bd70-965a584526a3",
@@ -135,6 +143,14 @@
             }
         },
         {
+            "Key": "40f0bc61-720b-4990-b482-817d6da00f6b",
+            "Value": {
+                "id": "aebb7652-4a72-469d-b9f2-a85e0c7e0c6d",
+                "resourcePath": "scripts\\scr_prefab\\scr_prefab.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4111bddb-6f86-4097-bfd3-733445363171",
             "Value": {
                 "id": "e7c80c78-a866-44f0-ba9d-ebc74cb530d1",
@@ -172,6 +188,14 @@
                 "id": "281c636a-00de-46f3-b871-533809464c69",
                 "resourcePath": "objects\\oTether\\oTether.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "52014e57-b43a-4cc2-86ab-bd7d2c29a2dc",
+            "Value": {
+                "id": "dba6eab0-ee63-42ba-aa15-082a6160aa77",
+                "resourcePath": "scripts\\scr_prefab4\\scr_prefab4.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -367,6 +391,14 @@
             }
         },
         {
+            "Key": "c8dd9ace-29ae-43b3-ad91-84f5634424b1",
+            "Value": {
+                "id": "87b1a4f0-e33a-408c-88e0-72352328bd78",
+                "resourcePath": "views\\c8dd9ace-29ae-43b3-ad91-84f5634424b1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "e596204e-8016-476b-9d32-620bbb763b5a",
@@ -380,6 +412,14 @@
                 "id": "eb68c7a5-408f-44be-98eb-0e667ea3c3d9",
                 "resourcePath": "objects\\obj_block\\obj_block.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "de9e1b63-76ee-466f-9e95-146890ef484c",
+            "Value": {
+                "id": "e69b89e1-45d1-4439-80ef-0841ddf3b2a6",
+                "resourcePath": "scripts\\scr_prefab2\\scr_prefab2.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -439,6 +479,14 @@
             }
         },
         {
+            "Key": "f8f4294d-a0ee-4453-b4c7-322312d82526",
+            "Value": {
+                "id": "820fa70b-86be-4e8d-b9c0-a7afd52d7066",
+                "resourcePath": "scripts\\scr_prefab1\\scr_prefab1.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fdd7caa9-20be-4b65-a91d-404494d88424",
             "Value": {
                 "id": "48086166-c5e4-41e8-8ce2-3f362e94d460",
@@ -455,7 +503,12 @@
         "4111bddb-6f86-4097-bfd3-733445363171",
         "4448cbf9-dbd8-476e-bf21-a6a2075a3d1b",
         "95832c6d-e8e7-4f65-a8bd-449f58708a72",
-        "8e3a45fd-c763-4d58-b388-13b16f8ec15f"
+        "8e3a45fd-c763-4d58-b388-13b16f8ec15f",
+        "40f0bc61-720b-4990-b482-817d6da00f6b",
+        "52014e57-b43a-4cc2-86ab-bd7d2c29a2dc",
+        "f8f4294d-a0ee-4453-b4c7-322312d82526",
+        "de9e1b63-76ee-466f-9e95-146890ef484c",
+        "0aa2cb63-81a0-49b7-8794-e0d180359c40"
     ],
     "tutorial": ""
 }

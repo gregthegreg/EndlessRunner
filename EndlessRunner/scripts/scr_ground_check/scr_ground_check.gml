@@ -4,19 +4,27 @@ if (duckKey)
 	jumping = false;
 	falling = true;
 }
-
+canjump --
+if ((jumpKey || jumpKeyAlt) && (!duckKey)&&(canjump>0))
+	{
+		//audio_play_sound(snd_jump, 100, false);
+		canjump = 0
+		jumping = true;
+		vspd = -jspd;
+	}
 if (place_meeting(x, y + 1, obj_block))
 {
 	// we're touching the ground
 	vspd = 0;
 	jumping = false;
 	falling = false;
-	
+	canjump = 10
 	if (!duckKey)
 		ducking = false;
 		
 	// if the player wants to jump
-	if ((jumpKey || jumpKeyAlt) && !duckKey)
+	
+	if ((jumpKey || jumpKeyAlt) && (!duckKey))
 	{
 		//audio_play_sound(snd_jump, 100, false);
 		jumping = true;
@@ -25,6 +33,7 @@ if (place_meeting(x, y + 1, obj_block))
 }
 else
 {
+	
 	if (ducking)
 	{
 		vspd += grav * 4;	
