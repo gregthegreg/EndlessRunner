@@ -10,3 +10,4 @@ ducking = false;
 slashing = false;
 canjump = 0
 termVelocity = 50;
+dashes = 2

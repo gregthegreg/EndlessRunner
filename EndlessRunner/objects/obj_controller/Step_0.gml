@@ -5,7 +5,7 @@ if(timer = 0)
 {
 	timer = timermax
 	//instance_create_layer(x,choose(y,y - 100,y+16),"Instances",choose(obj_obstacle,obj_obstacle1,obj_obstacle2,obj_flyingblock))
-	pattern = choose(0,1,2,3,4)
+	pattern = choose(0,1,2,3,4,5,6,7)
 	switch(pattern){
 	case 0: scr_prefab()
 	break;
@@ -20,6 +20,15 @@ if(timer = 0)
 	break;
 	
 	case 4: scr_prefab4()
+	break;
+	
+	case 5: scr_prefab5()
+	break;
+	
+	case 6: scr_prefab6()
+	break;
+	
+	case 7: instance_create_layer(x,choose(y,y - 100,y+16),"Instances",choose(obj_obstacle,obj_obstacle1,obj_obstacle2,obj_flyingblock))
 	break;}
 
 }

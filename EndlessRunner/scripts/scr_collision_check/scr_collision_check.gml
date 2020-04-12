@@ -9,9 +9,9 @@ if (place_meeting(x, y + vspd, obj_block))
 }
 
 y += vspd;
-if (place_meeting(x, y + hspd, obj_block))
+if (place_meeting(x+ hspd, y , obj_block))
 {
-	while (!place_meeting(x, y+sign(hspd), obj_block))
+	while (!place_meeting(x+sign(hspd), y, obj_block))
 	{
 		y += sign(hspd);	
 	}
@@ -20,3 +20,4 @@ if (place_meeting(x, y + hspd, obj_block))
 }
 
 x += hspd;
+

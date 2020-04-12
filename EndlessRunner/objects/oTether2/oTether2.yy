@@ -1,19 +1,10 @@
 {
-    "id": "9d1c03df-c48d-46c9-8954-93bb4b31b33f",
+    "id": "08987303-7380-41e9-aa69-424989ad06a7",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oTether1",
+    "name": "oTether2",
     "eventList": [
-        {
-            "id": "3ef23115-4766-449f-9024-4d39b7f80a7a",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "9d1c03df-c48d-46c9-8954-93bb4b31b33f"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

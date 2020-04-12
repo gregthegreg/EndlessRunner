@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "08987303-7380-41e9-aa69-424989ad06a7",
+            "Value": {
+                "id": "542ff400-8f62-4243-9cfb-4f6e235c94a8",
+                "resourcePath": "objects\\oTether2\\oTether2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0aa2cb63-81a0-49b7-8794-e0d180359c40",
             "Value": {
                 "id": "c049d256-0f8f-4667-a63c-2c31702c3657",
@@ -108,6 +116,14 @@
                 "id": "180fdb4d-f18a-4c83-ad26-20983007ec80",
                 "resourcePath": "views\\28b7d2f8-b7c3-4eca-b2f9-bcc1a45d0b7c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2ae23b3a-9350-4933-bcc1-e6ea3d4e4371",
+            "Value": {
+                "id": "c72b88e2-fbb1-4807-81f0-c1424201c008",
+                "resourcePath": "scripts\\scr_prefab5\\scr_prefab5.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -311,6 +327,14 @@
             }
         },
         {
+            "Key": "9239fb6d-42fd-4b5c-b823-8de43b088201",
+            "Value": {
+                "id": "b4aa4b28-ab59-44a3-8660-4ed34645aad7",
+                "resourcePath": "scripts\\scr_prefab6\\scr_prefab6.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "94363110-132a-4747-b42e-dde54fc44bd2",
             "Value": {
                 "id": "1883dda6-61ca-4460-ac1b-0e0a8ee07257",
@@ -505,6 +529,8 @@
         "95832c6d-e8e7-4f65-a8bd-449f58708a72",
         "8e3a45fd-c763-4d58-b388-13b16f8ec15f",
         "40f0bc61-720b-4990-b482-817d6da00f6b",
+        "9239fb6d-42fd-4b5c-b823-8de43b088201",
+        "2ae23b3a-9350-4933-bcc1-e6ea3d4e4371",
         "52014e57-b43a-4cc2-86ab-bd7d2c29a2dc",
         "f8f4294d-a0ee-4453-b4c7-322312d82526",
         "de9e1b63-76ee-466f-9e95-146890ef484c",
